@@ -6,8 +6,8 @@
 
 "use strict"
 
-function calculateClicked () {
-  // this function tells the user if their number is positive or negative
+function checkClicked () {
+  // this function checks if the user’s number is positive or negative
 
   // input
   const userNumber = parseInt(document.getElementById("user-number").value)
